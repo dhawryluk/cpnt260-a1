@@ -1,0 +1,116 @@
+
+.container {
+  position: relative;
+}
+
+.name {
+  font-family: "Great Vibes", 'cursive';
+  font-size: 27px;
+  color: #4b4634;
+  text-shadow: 2px 2px 4px #fff;
+  position: absolute;
+  bottom: -18px;
+  right: 16px;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+}
+
+.main-content {
+  display: grid;
+}
+
+body {
+  margin: 0;
+  max-width: 85ch;
+  text-align: justify;
+  display: table;
+  margin: auto;
+  padding: 1rem;
+  background-color: #A0E0DE;
+  color: #4b4634;
+}
+
+h2.main-title {
+  font-variant: small-caps slashed-zero;
+  letter-spacing: .2rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3rem;
+}
+
+p {
+  font-family: 'Quattrocento', serif;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+ul {
+  padding: 0;
+  list-style: inside;
+}
+
+.button {
+  width: 20%;
+  justify-self: end;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #597C80;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700;
+  border-color: white;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #2D8E9B;
+  color: #B09779;
+  border-color: black;
+  text-decoration: none;
+}
+
+
+/* page 2 CSS */
+
+.photo-gallery {
+  font-family: "Great Vibes", 'cursive';
+  font-size: 45px;
+  color: #4b4634;
+  text-shadow: 2px 2px 4px #fff;
+  text-align: center;
+
+}
+
+.gallery {
+  width: 100%;
+  height: 300px;
+  margin: 5px;
+  border-radius: 5px;
+  transition: all 1s;
+}
+
+.gallery:hover {
+  transform: scale(1.05);
+}
